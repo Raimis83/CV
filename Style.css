@@ -1,0 +1,94 @@
+body{
+    background-image: url('54cb608d6bb3f794537ae1a0.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.Page{
+    width: 100%;
+    height: 100%;
+}
+.RColumn{
+    float: right;
+    width: 69%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .8);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+}
+.LColumn{
+    float: left;
+    position:fixed;
+    width: 30%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .8);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+}
+.Image{
+    max-width: 100%;
+    border-color: white;
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 50%;
+}
+.Name{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 60%;
+    position:relative;
+    color: black;
+    border-radius: 5px;
+    display: block;
+    background: transparent;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+}
+.LasName{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: right;
+    text-align: right;
+    width: 60%;
+    position:relative;
+    color: black;
+    border-radius: 5px;
+    display: block;
+    background: transparent;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+}
+.LColumnKontaktai{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position:relative;
+    width:90%;
+    border-radius: 5px;
+    display:inline;
+    transform: translate(0%, 0%);
+    background: transparent;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+}
+.Pareigos{
+    text-align: left;
+    border-radius: 5px;
+    display: block;
+    background: rgba(255, 255, 255, .4);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+}
+.Text1{
+    margin: px;
+    border-radius: 5px;
+    display: block;
+    background: rgba(255, 255, 255, .4);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+}
+details[open]{
+    padding: 5px;
+    border: 5px;
+    border-style:unset;
+}
+data:hover::after{
+    content: ' 'attr(value);
+    font-size: 5pm;
+    font-style: italic;
+}
+fieldset{
+    border-radius: 5px;
+}
